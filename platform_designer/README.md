@@ -1,0 +1,3 @@
+# Platform Designer
+
+Pentru Qsys.
