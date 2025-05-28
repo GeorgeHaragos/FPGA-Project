@@ -30,6 +30,7 @@ end
   always @(*) begin
     cnt_nxt=cnt_reg;
     pwm_nxt=pwm_reg;
+    pwm_out=pwm_reg;
     if(cnt_reg==MAX_COUNT)
 		cnt_nxt=0;
 	else
@@ -39,5 +40,4 @@ end
     else
       	pwm_nxt=0;
   end
-  assign pwm_out=pwm_reg;
 endmodule
